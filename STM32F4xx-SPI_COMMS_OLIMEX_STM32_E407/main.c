@@ -45,18 +45,19 @@ int main(void) {
   chSysInit();
 
   /*
-   * Setup of ADF4159/ADF4355 register values
+   * Setup of ADF4159/ADF4355/ADA8282 register values
    */
   ADF4159_init();
   ADF4355_init();
+  ADA8282_init();
 
   /*
-   * Normal main() thread activity, the LED on the PCB blinks on and off at 1 second intervals
+   * Normal main() thread activity, the LED on the PCB blinks on and off at 0.1 second intervals
    */
   while (true) {
     palSetPad(GPIOC, GPIOC_LED_SPI);
-    chThdSleepMilliseconds(1000);
+    chThdSleepMilliseconds(100);
     palClearPad(GPIOC, GPIOC_LED_SPI);
-    chThdSleepMilliseconds(1000);
+    chThdSleepMilliseconds(100);
   }
 }

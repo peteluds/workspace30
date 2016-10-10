@@ -8,4 +8,4 @@
  */
 void ADF4159_init(void);
 void ADF4355_init(void);
-
+void ADA8282_init(void);
