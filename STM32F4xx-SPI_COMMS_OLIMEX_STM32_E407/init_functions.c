@@ -44,22 +44,22 @@ static uint8_t ADF4159_power_on_register_values_buf[11][4] = {
 {0x00,0x12,0x8F,0x75}, // Write to ADF4159 register 5 [with DEV SEL = 0]
 {0x00,0x92,0x8F,0x75}, // Write to ADF4159 register 5 [with DEV SEL = 1]
 {0x00,0x18,0x00,0x84}, // Write to ADF4159 register 4 [with CLK DIV SEL = 0]
-{0x00,0x18,0x00,0xC4}, // Write to ADF4159 register 4 [with CLK DIV SEL = 1] // Byte 2 changed from 18 to 78 to enable ramp complete readout to MUXOUT
+{0x00,0x18,0x00,0xC4}, // Write to ADF4159 register 4 [with CLK DIV SEL = 1] // Change byte 2 from 18 to 78 to enable ramp complete readout to MUXOUT
 {0x00,0x63,0x04,0x83}, // Write to ADF4159 register 3
 {0x00,0x40,0x81,0x92}, // Write to ADF4159 register 2
 {0x00,0x00,0x00,0x01}, // Write to ADF4159 register 1
-{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // Byte 1 changed from B0 to F8 to enable ramp complete readout to MUXOUT, Bytes 2/3 changed from 6C/C0 to 37/00 to give 11 GHz output at PLL
+{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // Change byte 1 from B0 to F8 to enable ramp complete readout to MUXOUT
 };
 
 static uint8_t ADF4159_register_values_buf[8][4] = {
 {0x00,0x00,0x00,0x07}, // Write to ADF4159 register 7
 {0x00,0x00,0x3E,0x86}, // Write to ADF4159 register 6
 {0x00,0x12,0x8F,0x75}, // Write to ADF4159 register 5
-{0x00,0x18,0x00,0x84}, // Write to ADF4159 register 4 // Byte 2 changed from 18 to 78 to enable ramp complete readout to MUXOUT
+{0x00,0x18,0x00,0x84}, // Write to ADF4159 register 4 // Change byte 2 from 18 to 78 to enable ramp complete readout to MUXOUT
 {0x00,0x63,0x04,0x83}, // Write to ADF4159 register 3
 {0x00,0x40,0x81,0x92}, // Write to ADF4159 register 2
 {0x00,0x00,0x00,0x01}, // Write to ADF4159 register 1
-{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // Byte 1 changed from B0 to F8 to enable ramp complete readout to MUXOUT, Bytes 2/3 changed from 6C/C0 to 37/00 to give 11 GHz output at PLL
+{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // Change byte 1 from B0 to F8 to enable ramp complete readout to MUXOUT
 };
 
 /*
@@ -82,11 +82,11 @@ static uint8_t ADF4355_power_on_register_values_buf1[12][4] = {
 };
 
 static uint8_t ADF4355_power_on_register_values_buf2[5][4] = {
-{0x00,0x20,0xC0,0x40}, // Write to ADF4355 register 0 [For halved fPFD] // Byte 2 changed from 00 to 20 to enable auto-calibration of VCO band
+{0x00,0x20,0xC0,0x40}, // Write to ADF4355 register 0 [For halved fPFD]
 {0x30,0x00,0x89,0x84}, // Write to ADF4355 register 4 [R divider output set to output desired fPFD]
 {0x00,0x00,0x40,0x02}, // Write to ADF4355 register 2 [For desired fPFD]
 {0x00,0x00,0x00,0x01}, // Write to ADF4355 register 1 [For desired fPFD]
-{0x00,0x20,0x03,0x20}, // Write to ADF4355 register 0 [For desired fPFD] // Byte 2 changed from 00 to 20 to enable auto-calibration of VCO band
+{0x00,0x20,0x03,0x20}, // Write to ADF4355 register 0 [For desired fPFD]
 };
 
 /*
