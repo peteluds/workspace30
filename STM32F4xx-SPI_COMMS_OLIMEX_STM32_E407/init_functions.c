@@ -44,22 +44,30 @@ static uint8_t ADF4159_power_on_register_values_buf[11][4] = {
 {0x00,0x12,0x8F,0x75}, // Write to ADF4159 register 5 [with DEV SEL = 0]
 {0x00,0x92,0x8F,0x75}, // Write to ADF4159 register 5 [with DEV SEL = 1]
 {0x00,0x18,0x00,0x84}, // Write to ADF4159 register 4 [with CLK DIV SEL = 0]
-{0x00,0x18,0x00,0xC4}, // Write to ADF4159 register 4 [with CLK DIV SEL = 1] // Change byte 2 from 18 to 78 to enable ramp complete readout to MUXOUT
+{0x00,0x18,0x00,0xC4}, // Write to ADF4159 register 4 [with CLK DIV SEL = 1]
 {0x00,0x63,0x04,0x83}, // Write to ADF4159 register 3
 {0x00,0x40,0x81,0x92}, // Write to ADF4159 register 2
 {0x00,0x00,0x00,0x01}, // Write to ADF4159 register 1
-{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // Change byte 1 from B0 to F8 to enable ramp complete readout to MUXOUT
+{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0
 };
 
 static uint8_t ADF4159_register_values_buf[8][4] = {
 {0x00,0x00,0x00,0x07}, // Write to ADF4159 register 7
 {0x00,0x00,0x3E,0x86}, // Write to ADF4159 register 6
 {0x00,0x12,0x8F,0x75}, // Write to ADF4159 register 5
-{0x00,0x18,0x00,0x84}, // Write to ADF4159 register 4 // Change byte 2 from 18 to 78 to enable ramp complete readout to MUXOUT
+
+{0x00,0x18,0x00,0x84}, // Write to ADF4159 register 4 // Ramp Status = Normal Operation
+//{0x00,0x78,0x00,0x84}, // Write to ADF4159 register 4 // Ramp Status = Ramp Complete to MUXOUT
+
 {0x00,0x63,0x04,0x83}, // Write to ADF4159 register 3
 {0x00,0x40,0x81,0x92}, // Write to ADF4159 register 2
 {0x00,0x00,0x00,0x01}, // Write to ADF4159 register 1
-{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // Change byte 1 from B0 to F8 to enable ramp complete readout to MUXOUT
+
+{0xB0,0x36,0x60,0x00}, // Write to ADF4159 register 0 // 21.75-22.75 GHz FMCW Ramp enabled, MUXOUT = Digital Lock Detect
+//{0xF8,0x36,0x60,0x00}, // Write to ADF4159 register 0 // 21.75-22.75 GHz FMCW Ramp enabled, MUXOUT = Ramp Complete
+//{0x30,0x36,0x60,0x00}, // Write to ADF4159 register 0 // 21.75 GHz frequency, FMCW Ramp disabled, MUXOUT = Digital Lock Detect
+//{0x30,0x38,0xE0,0x00}, // Write to ADF4159 register 0 // 22.75 GHz frequency, FMCW Ramp disabled, MUXOUT = Digital Lock Detect
+
 };
 
 /*
@@ -73,7 +81,10 @@ static uint8_t ADF4355_power_on_register_values_buf1[12][4] = {
 {0x3F,0x40,0x2C,0x89}, // Write to ADF4355 register 9
 {0x10,0x2D,0x04,0x28}, // Write to ADF4355 register 8
 {0x10,0x00,0x00,0x17}, // Write to ADF4355 register 7
-{0x15,0x1F,0xE0,0x76}, // Write to ADF4355 register 6
+
+{0x15,0x1F,0xE0,0x76}, // Write to ADF4355 register 6 // RF Output power = Maximum
+//{0x15,0x1F,0xE0,0x46}, // Write to ADF4355 register 6 // RF Output power = 9 dB lower than Maximum value
+
 {0x00,0x80,0x00,0x25}, // Write to ADF4355 register 5
 {0x30,0x01,0x09,0x84}, // Write to ADF4355 register 4 [R divider output set to output half fPFD]
 {0x00,0x00,0x00,0x03}, // Write to ADF4355 register 3
