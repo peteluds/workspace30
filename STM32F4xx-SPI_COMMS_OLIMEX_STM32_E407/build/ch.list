@@ -2799,8 +2799,8 @@ static inline void chRegSetThreadNameX(thread_t *tp, const char *name) {
   /*
    * Setup of ADF4159/ADF4355/ADA8282 register values
    */
-  chThdSleepMilliseconds(50);
- 8000cd8:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
+  chThdSleepMilliseconds(1000);
+ 8000cd8:	f242 7010 	movw	r0, #10000	; 0x2710
  8000cdc:	f000 fd88 	bl	80017f0 <chThdSleep>
     /*
      * Program ADF4159 with power-on register values, i.e. load registers from 7-0, load registers 6/5/4 twice
@@ -2919,8 +2919,8 @@ static inline void osalMutexUnlock(mutex_t *mp) {
   chMtxUnlock(mp);
  8000d42:	f000 fe9d 	bl	8001a80 <chMtxUnlock.constprop.16>
   ADF4159_init();
-  chThdSleepMilliseconds(50);
- 8000d46:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
+  chThdSleepMilliseconds(1000);
+ 8000d46:	f242 7010 	movw	r0, #10000	; 0x2710
  8000d4a:	f000 fd51 	bl	80017f0 <chThdSleep>
     /*
      * Program ADF4355 with power-on register values, i.e. load registers from 12-1, note that registers 4/2/1 use fPFD/2 value
@@ -3044,25 +3044,25 @@ static inline void osalMutexUnlock(mutex_t *mp) {
   chMtxUnlock(mp);
  8000db6:	f000 fe63 	bl	8001a80 <chMtxUnlock.constprop.16>
   ADF4355_init();
-  chThdSleepMilliseconds(50);
- 8000dba:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
+  chThdSleepMilliseconds(1000);
+ 8000dba:	f242 7010 	movw	r0, #10000	; 0x2710
  8000dbe:	f000 fd17 	bl	80017f0 <chThdSleep>
  8000dc2:	4c38      	ldr	r4, [pc, #224]	; (8000ea4 <main+0x814>)
     /*
-     * Program ADA8282 U403/U404 with power-on register values
+     * Program ADA8282 U404/U405 with power-on register values
      */
 
-    //Select multiplexed line for ADA8282 / U403
+    //Select multiplexed line for ADA8282 / U404
     palSetPad(GPIOG, GPIOG_SPI_NSS_S0);
  8000dc4:	4b32      	ldr	r3, [pc, #200]	; (8000e90 <main+0x800>)
  8000dc6:	f44f 4100 	mov.w	r1, #32768	; 0x8000
     palClearPad(GPIOG, GPIOG_SPI_NSS_S1);
  8000dca:	f44f 5280 	mov.w	r2, #4096	; 0x1000
     /*
-     * Program ADA8282 U403/U404 with power-on register values
+     * Program ADA8282 U404/U405 with power-on register values
      */
 
-    //Select multiplexed line for ADA8282 / U403
+    //Select multiplexed line for ADA8282 / U404
     palSetPad(GPIOG, GPIOG_SPI_NSS_S0);
  8000dce:	8319      	strh	r1, [r3, #24]
  8000dd0:	f104 0515 	add.w	r5, r4, #21
@@ -3076,14 +3076,15 @@ static inline void osalMutexLock(mutex_t *mp) {
   chMtxLock(mp);
  8000dd6:	f000 fedb 	bl	8001b90 <chMtxLock.constprop.17>
 
-    // Configure ADA8282 / U403 registers
+    // Configure ADA8282 / U404 registers
     for(i = 0; i < 7; i++){
       spiAcquireBus(&SPID1);
       spiStart(&SPID1, &hs_spicfg);
  8000dda:	f001 f801 	bl	8001de0 <spiStart.constprop.10>
       spiSelect(&SPID1);
  8000dde:	f001 f8c7 	bl	8001f70 <spiSelect.constprop.6>
-      spiSend(&SPID1,3,ADA8282_U403_power_on_register_values[i]);
+      //spiSend(&SPID1,3,ADA8282_U404_power_on_register_values[i]);
+      spiSend(&SPID1,3,ADA8282_U404_power_on_register_values[i]);
  8000de2:	2003      	movs	r0, #3
  8000de4:	4621      	mov	r1, r4
  8000de6:	4404      	add	r4, r0
@@ -3100,11 +3101,11 @@ static inline void osalMutexUnlock(mutex_t *mp) {
 #if CH_CFG_USE_MUTEXES
   chMtxUnlock(mp);
  8000df4:	f000 fe44 	bl	8001a80 <chMtxUnlock.constprop.16>
-    //Select multiplexed line for ADA8282 / U403
+    //Select multiplexed line for ADA8282 / U404
     palSetPad(GPIOG, GPIOG_SPI_NSS_S0);
     palClearPad(GPIOG, GPIOG_SPI_NSS_S1);
 
-    // Configure ADA8282 / U403 registers
+    // Configure ADA8282 / U404 registers
     for(i = 0; i < 7; i++){
  8000df8:	42ac      	cmp	r4, r5
  8000dfa:	d1ec      	bne.n	8000dd6 <main+0x746>
@@ -3112,7 +3113,7 @@ static inline void osalMutexUnlock(mutex_t *mp) {
       spiReleaseBus(&SPID1);
     }
 
-    //Select multiplexed line for ADA8282 / U404
+    //Select multiplexed line for ADA8282 / U405
         palSetPad(GPIOG, GPIOG_SPI_NSS_S0);
  8000dfc:	4b24      	ldr	r3, [pc, #144]	; (8000e90 <main+0x800>)
  8000dfe:	4c2a      	ldr	r4, [pc, #168]	; (8000ea8 <main+0x818>)
@@ -3123,7 +3124,7 @@ static inline void osalMutexUnlock(mutex_t *mp) {
       spiReleaseBus(&SPID1);
     }
 
-    //Select multiplexed line for ADA8282 / U404
+    //Select multiplexed line for ADA8282 / U405
         palSetPad(GPIOG, GPIOG_SPI_NSS_S0);
  8000e08:	8319      	strh	r1, [r3, #24]
  8000e0a:	f104 0515 	add.w	r5, r4, #21
@@ -3137,14 +3138,14 @@ static inline void osalMutexLock(mutex_t *mp) {
   chMtxLock(mp);
  8000e10:	f000 febe 	bl	8001b90 <chMtxLock.constprop.17>
 
-        // Configure ADA8282 / U404 registers
+        // Configure ADA8282 / U405 registers
         for(i = 0; i < 7; i++){
           spiAcquireBus(&SPID1);
           spiStart(&SPID1, &hs_spicfg);
  8000e14:	f000 ffe4 	bl	8001de0 <spiStart.constprop.10>
           spiSelect(&SPID1);
  8000e18:	f001 f8aa 	bl	8001f70 <spiSelect.constprop.6>
-          spiSend(&SPID1,3,ADA8282_U404_power_on_register_values[i]);
+          spiSend(&SPID1,3,ADA8282_U405_power_on_register_values[i]);
  8000e1c:	2003      	movs	r0, #3
  8000e1e:	4621      	mov	r1, r4
  8000e20:	4404      	add	r4, r0
@@ -3161,35 +3162,35 @@ static inline void osalMutexUnlock(mutex_t *mp) {
 #if CH_CFG_USE_MUTEXES
   chMtxUnlock(mp);
  8000e2e:	f000 fe27 	bl	8001a80 <chMtxUnlock.constprop.16>
-    //Select multiplexed line for ADA8282 / U404
+    //Select multiplexed line for ADA8282 / U405
         palSetPad(GPIOG, GPIOG_SPI_NSS_S0);
         palSetPad(GPIOG, GPIOG_SPI_NSS_S1);
 
-        // Configure ADA8282 / U404 registers
+        // Configure ADA8282 / U405 registers
         for(i = 0; i < 7; i++){
  8000e32:	42ac      	cmp	r4, r5
  8000e34:	d1ec      	bne.n	8000e10 <main+0x780>
   ADA8282_init();
-  chThdSleepMilliseconds(50);
- 8000e36:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
+  chThdSleepMilliseconds(1000);
+ 8000e36:	f242 7010 	movw	r0, #10000	; 0x2710
  8000e3a:	f000 fcd9 	bl	80017f0 <chThdSleep>
- //   chThdSleepMilliseconds(50);
-//     ADA8282_init();
- //     chThdSleepMilliseconds(50);
 
+//    AD9648_write_func();
+//    chThdSleepMilliseconds(50);
+//    AD9648_read_func();
 
     palSetPad(GPIOC, GPIOC_LED_SPI);
  8000e3e:	f44f 5500 	mov.w	r5, #8192	; 0x2000
  8000e42:	4c1a      	ldr	r4, [pc, #104]	; (8000eac <main+0x81c>)
  8000e44:	462e      	mov	r6, r5
  8000e46:	8326      	strh	r6, [r4, #24]
-    chThdSleepMilliseconds(100);
- 8000e48:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+    chThdSleepMilliseconds(500);
+ 8000e48:	f241 3088 	movw	r0, #5000	; 0x1388
  8000e4c:	f000 fcd0 	bl	80017f0 <chThdSleep>
     palClearPad(GPIOC, GPIOC_LED_SPI);
  8000e50:	8365      	strh	r5, [r4, #26]
-    chThdSleepMilliseconds(100);
- 8000e52:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+    chThdSleepMilliseconds(500);
+ 8000e52:	f241 3088 	movw	r0, #5000	; 0x1388
  8000e56:	f000 fccb 	bl	80017f0 <chThdSleep>
  8000e5a:	e7f4      	b.n	8000e46 <main+0x7b6>
   This function disables IRQ interrupts by setting the I-bit in the CPSR.
@@ -3227,8 +3228,8 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
  8000e98:	200008a0 	.word	0x200008a0
  8000e9c:	20000844 	.word	0x20000844
  8000ea0:	20000874 	.word	0x20000874
- 8000ea4:	20000888 	.word	0x20000888
- 8000ea8:	20000800 	.word	0x20000800
+ 8000ea4:	20000800 	.word	0x20000800
+ 8000ea8:	20000888 	.word	0x20000888
  8000eac:	40020800 	.word	0x40020800
  8000eb0:	080020a4 	.word	0x080020a4
  8000eb4:	08002080 	.word	0x08002080
@@ -8132,4 +8133,4 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE void __disable_irq(void)
  8002310:	53697073 74726174 00000000 00000000     spiStart........
 
 08002320 <hs_spicfg.lto_priv.31>:
- 8002320:	00000000 40020000 00300004              .......@..0.
+ 8002320:	00000000 40020000 00330004              .......@..3.

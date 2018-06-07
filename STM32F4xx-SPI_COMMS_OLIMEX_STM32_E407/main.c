@@ -47,13 +47,17 @@ int main(void) {
   /*
    * Setup of ADF4159/ADF4355/ADA8282 register values
    */
-  chThdSleepMilliseconds(50);
+  chThdSleepMilliseconds(1000);
   ADF4159_init();
-  chThdSleepMilliseconds(50);
+  chThdSleepMilliseconds(1000);
   ADF4355_init();
-  chThdSleepMilliseconds(50);
+  chThdSleepMilliseconds(1000);
   ADA8282_init();
-  chThdSleepMilliseconds(50);
+  chThdSleepMilliseconds(1000);
+
+  //AD9648_init();
+//  chThdSleepMilliseconds(1000);
+
 
   /*
    * Normal main() thread activity, the LED on the PCB blinks on and off at 0.1 second intervals
@@ -61,17 +65,20 @@ int main(void) {
   while (true) {
 
 
-  //  ADF4159_init();
- //    chThdSleepMilliseconds(50);
- //  ADF4355_init();
- //   chThdSleepMilliseconds(50);
-//     ADA8282_init();
- //     chThdSleepMilliseconds(50);
+//   ADF4159_init();
+//     chThdSleepMilliseconds(50);
+//   ADF4355_init();
+//    chThdSleepMilliseconds(50);
+//    ADA8282_init();
+//     chThdSleepMilliseconds(50);
 
+//    AD9648_write_func();
+//    chThdSleepMilliseconds(50);
+//    AD9648_read_func();
 
     palSetPad(GPIOC, GPIOC_LED_SPI);
-    chThdSleepMilliseconds(100);
+    chThdSleepMilliseconds(500);
     palClearPad(GPIOC, GPIOC_LED_SPI);
-    chThdSleepMilliseconds(100);
+    chThdSleepMilliseconds(500);
   }
 }

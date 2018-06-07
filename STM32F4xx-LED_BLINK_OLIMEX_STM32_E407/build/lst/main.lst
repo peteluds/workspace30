@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 1
 
 
    1              		.syntax unified
@@ -17,27 +17,27 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
   14              		.file	"main.c"
   15              		.text
   16              	.Ltext0:
-  17              		.section	.gnu.lto_.profile.7649a251,"",%progbits
+  17              		.section	.gnu.lto_.profile.bbabde58,"",%progbits
   18 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006\035\016\000\000\324\000="
   18      60606061 
   18      80004606 
   18      1D0E0000 
   18      D4003D
   19              		.text
-  20              		.section	.gnu.lto_.jmpfuncs.7649a251,"",%progbits
-  21 0000 789C6366 		.ascii	"x\234cf\300\016T\2414#\0103}db|y\364\374f\316\027L?"
+  20              		.section	.gnu.lto_.jmpfuncs.bbabde58,"",%progbits
+  21 0000 789C6366 		.ascii	"x\234cf\300\016T\2414#\0103}db<x\377\356^\276\027L?"
   21      C00E54A1 
   21      34230833 
-  21      7D64627C 
-  21      79F4FC66 
-  22 0018 991826F8 		.ascii	"\231\030&\37010.g\224\002\012\203) \000\000\303\331"
-  22      31302E67 
+  21      7D64623C 
+  21      78FFEE5E 
+  22 0018 99185EB0 		.ascii	"\231\030^\26030.g\224\002\012\203) \000\000\306\216"
+  22      33302E67 
   22      94020A83 
   22      29200000 
-  22      C3D9
-  23 002a 08A6     		.ascii	"\010\246"
+  22      C68E
+  23 002a 08C6     		.ascii	"\010\306"
   24              		.text
-  25              		.section	.gnu.lto_.inline.7649a251,"",%progbits
+  25              		.section	.gnu.lto_.inline.bbabde58,"",%progbits
   26 0000 789C6366 		.ascii	"x\234cf\300\016t\2404#\003\003\327\027!F\006&\226\206"
   26      C00E74A0 
   26      34230303 
@@ -51,138 +51,141 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
   28 0027 110C0064 		.ascii	"\021\014\000d\240\002\317"
   28      A002CF
   29              		.text
-  30              		.section	.gnu.lto_.pureconst.7649a251,"",%progbits
+  30              		.section	.gnu.lto_.pureconst.bbabde58,"",%progbits
   31 0000 789C6366 		.ascii	"x\234cf```f\200\000F\006S\000\000\225\000="
   31      60606066 
   31      80004606 
   31      53000095 
   31      003D
   32              		.text
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 2
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 2
 
 
-  33              		.section	.gnu.lto_main.7649a251,"",%progbits
-  34 0000 789C8D92 		.ascii	"x\234\215\222MK\033Q\024\206\317{f2&\306\224\322eV\356"
-  34      4D4B1B51 
-  34      1486CF7B 
-  34      663226C6 
-  34      94D26556 
-  35 0015 B2D074E7 		.ascii	"\262\320t\347\276\376\201\322\277P\272\352\302\376\003"
-  35      BEFE81D2 
-  35      BF50BAEA 
-  35      C2FE03
-  36 0024 F18AB370 		.ascii	"\361\212\263p\241\022\305EAt#1\265\266\243\365\253&"
-  36      A112C545 
-  36      41742331 
-  36      B5B6A3F5 
-  36      AB26
-  37 0036 200421A8 		.ascii	" \004!\250\340'.\024\021\005\211bvc\342f\220\022\317"
-  37      E0272E14 
-  37      11058962 
-  37      7663E266 
-  37      9012CF
-  38 0049 99C46EDA 		.ascii	"\231\304n\332\224\016\314\334{\356\373\236s\317s\347"
-  38      940ECCDC 
-  38      7BEEFB9E 
-  38      73CF73E7 
-  39 0059 5AF4E7D3 		.ascii	"Z\364\347\323#\257\313D1\031\021!p\346\200h0\312\260"
-  39      23AFCB44 
-  39      31191121 
-  39      70E68068 
-  39      30CAB0
-  40 006c 1A130B76 		.ascii	"\032\023\013vcb7VzA\003l\331\220O\243@\205\357\031y"
-  40      63623756 
-  40      7A41036C 
-  40      D9904FA3 
-  40      4085EF19 
-  41 0081 EF613F7E 		.ascii	"\357a?~\307\001S'IX\230\330\371\354h\010[\303\307\254"
-  41      C7015327 
-  41      495898D8 
-  41      F9EC6808 
-  41      5BC3C7AC 
-  42 0095 5F715259 		.ascii	"_qRYc\214_\315\336\274+\332\0013\325\230\220C\022_\220"
-  42      638C5FCD 
-  42      DEBC2BDA 
-  42      0133D598 
-  42      9043125F 
-  43 00aa D4ADE791 		.ascii	"\324\255\347\221R\353\275\373\3534\356\270b}\251\016"
-  43      52EBBDFB 
-  43      EB34EEB8 
-  43      627DA90E 
-  44 00ba 11BEC281 		.ascii	"\021\276\302\201\214\213\257\212\246^\237\235\334\353"
-  44      8C8BAF8A 
-  44      A65E9F9D 
-  44      DCEB
-  45 00c8 924ECBA2 		.ascii	"\222N\313\242\200n\244\012\254\013\014\025\307\023j"
-  45      806EA40A 
-  45      AC0B0C15 
-  45      C7136A
-  46 00d7 D3FC9993 		.ascii	"\323\374\231\2231\217\373\037\315\260\211\006l\325X"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 3
+  33              		.section	.gnu.lto_main.bbabde58,"",%progbits
+  34 0000 789C8D92 		.ascii	"x\234\215\222\317J\033Q\024\306\317wf2I\032#\3422+w"
+  34      CF4A1B51 
+  34      14C6CF77 
+  34      6632491A 
+  34      23E2322B 
+  35 0015 2E6CDCB9 		.ascii	".l\334\271\257o\340+\210\253.\352\033\210W\234\205\013"
+  35      AF6FE02B 
+  35      88AB2EEA 
+  35      1B88579C 
+  35      850B
+  36 0027 95285D08 		.ascii	"\225(]\010b7\022\243\265\216Z\377& DAT\260\325\322\205"
+  36      623712A3 
+  36      B58E5AFF 
+  36      26204441 
+  36      54B0D5D2 
+  37 003c 526C0312 		.ascii	"Rl\003\022\213\356\306\244\233A$\2363I\335\264)\035"
+  37      8BEEC6A4 
+  37      9B41249E 
+  37      3349DDB4 
+  37      291D
+  38 004e 98B9F7DC 		.ascii	"\230\271\367\334\357;\347\236\337\235k\321\237O\217"
+  38      EF3BE79E 
+  38      DF9D6BD1 
+  38      9F4F8F
+  39 005d BC2E13C5 		.ascii	"\274.\023\305eD\204\300\231\317D#1\206U\237X\260\353"
+  39      654484C0 
+  39      99CF4423 
+  39      3186559F 
+  39      58B0EB
+  40 0070 13BBBED2 		.ascii	"\023\273\276\322\013\032f\313\206|\352\005\356\370\236"
+  40      0B1A66CB 
+  40      867CEA05 
+  40      EEF89E
+  41 007f 91F77E7D 		.ascii	"\221\367~}J\334r\300\324A\022\026\246\217g\034\015a"
+  41      4ADC72C0 
+  41      D4411216 
+  41      A68F671C 
+  41      0D61
+  42 0091 6BF890F5 		.ascii	"k\370\220\365\357\234\316\2541\306\257do\372\212v\300"
+  42      EF9CCEAC 
+  42      31C6AF64 
+  42      6FFA8A76 
+  42      C0
+  43 00a2 4C5526E4 		.ascii	"LU&\344\220\302\"R\272\365\022:\325z\357>^$\034W\254"
+  43      90C22252 
+  43      BAF5123A 
+  43      D57AEF3E 
+  43      5E241C57 
+  44 00b7 6DEA10E1 		.ascii	"m\352\020\341=\034\310\270\332^4\265\332\374\333\323"
+  44      3D1CC8B8 
+  44      DA5E34B5 
+  44      DAFCDBD3 
+  45 00c7 2EE9B42C 		.ascii	".\351\264,\012\350F\252\300\272\302hq*\2516\315\177"
+  45      0AE846AA 
+  45      C0BAC268 
+  45      712AA936 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 3
 
 
-  46      318FFB1F 
-  46      CDB08906 
-  46      6CD558
-  47 00e6 52B1807E 		.ascii	"R\261\200~\012\330&uN\240\225SK~k:Ij[$\270\3269\266"
-  47      0AD82675 
-  47      4EA09553 
-  47      4B7E6B3A 
-  47      496A5B24 
-  48 00fe 7C3F17D1 		.ascii	"|?\027\321$\311\331\274\315\215\206\230\021\223\031"
-  48      24C9D9BC 
-  48      CD8D8698 
-  48      119319
-  49 010d 3621DB55 		.ascii	"6!\333U\371\3608\032.\221\206\365\221\353\313\027\323"
-  49      F9F0381A 
-  49      2E9186F5 
-  49      91EBCB17 
-  49      D3
-  50 011e 9842C00E 		.ascii	"\230B\300\016\276\013\236\247x\"\224Fk\276\235^0\256"
-  50      BE0B9EA7 
-  50      78229446 
-  50      6BBE9D5E 
-  50      30AE
-  51 0130 286D58C4 		.ascii	"(mX\3044\252\212\247\322n6\357%\232R\024KHW\265mUN\275"
-  51      34AA8AA7 
-  51      D26E36EF 
-  51      259A5214 
-  51      4B4857B5 
-  52 0148 AB42ACA9 		.ascii	"\253B\254\251\304\360C\225\360L\226\221\02653w\266\035"
-  52      C4F04395 
-  52      F04C9691 
-  52      16353377 
-  52      B61D
-  53 015a 9E72BB79 		.ascii	"\236r\273yCX\221\215.\340\026\227\376N\030\257\351\017"
-  53      4358918D 
-  53      2EE01697 
-  53      FE4E18AF 
-  53      E90F
-  54 016c C3AA108A 		.ascii	"\303\252\020\212T)\035\256\3044\265#\363\226\260\206"
-  54      54291DAE 
-  54      C434B523 
-  54      F396B086 
-  55 017c 64C00952 		.ascii	"d\300\011R\326\243\356&\352\177\202\254\267\006\371"
-  55      D6A3EE26 
-  55      EA7F82AC 
-  55      B706F9
-  56 018b D9126443 		.ascii	"\331\022dC\025\275>\310#\375\273\361\325\1776^\220\306"
-  56      15BD3EC8 
-  56      23FDBBF1 
-  56      D57F365E 
-  56      90C6
-  57 019d 9F1BD50B 		.ascii	"\237\033\325\013`\353\357A9\334\200\250\255\357\375"
-  57      60EBEF41 
-  57      39DC80A8 
-  57      ADEFFD
-  58 01ac C74FAF3F 		.ascii	"\307O\257?\320\023\262w\345\347"
-  58      D013B277 
-  58      E5E7
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 4
+  45      CD7F
+  46 00d9 F775D2E3 		.ascii	"\367u\322\343\241\0073fb\001[U\226T,c\210\002\266I\235"
+  46      A1073366 
+  46      62015B55 
+  46      96542C63 
+  46      8802B649 
+  47 00ee D368E6D4 		.ascii	"\323h\346\324\222\037\032N\222\332\026\011\256\365\015"
+  47      921F1A4E 
+  47      92DA1609 
+  47      AEF50D
+  48 00fd 07BE9F8B 		.ascii	"\007\276\237\213h\222\344\354\375\314M\204\230\021\223"
+  48      6892E4EC 
+  48      FDCC4D84 
+  48      981193
+  49 010c 1933215B 		.ascii	"\0313![\251|\366%\026.\221\206\265\361\353\037\255s"
+  49      A97CF625 
+  49      162E9186 
+  49      B5F1EB1F 
+  49      AD73
+  50 011e 9845C00E 		.ascii	"\230E\300\016V\004\317S<\021\016'\252\276\235^6\256"
+  50      5604CF53 
+  50      3C110E27 
+  50      AABE9D5E 
+  50      36AE
+  51 0130 2851AC62 		.ascii	"(Q\254b\016\025\305S\351$\233\367\222\015)\2065\244"
+  51      0E15C553 
+  51      E9249BF7 
+  51      920D2986 
+  51      35A4
+  52 0142 2BDAB62A 		.ascii	"+\332\266*\027^\251\020o(q\254\253\022\236\311G\244"
+  52      175EA910 
+  52      6F2871AC 
+  52      AB129EC9 
+  52      47A4
+  53 0154 45CD2C5C 		.ascii	"E\315,\\\036\205\247\374\302\274\"l\310FWp\213k\177"
+  53      1E85A7FC 
+  53      C2BC226C 
+  53      C8465770 
+  53      8B6B7F
+  54 0167 274C54F5 		.ascii	"'LT\365\207aS\010E\332/}\337k\325\324\226\333(a\013"
+  54      87615308 
+  54      45DA2F7D 
+  54      DF6BD5D4 
+  54      96DB2861 
+  55 017c A98093A4 		.ascii	"\251\200\223\244\254\347/\033\250\377\011\262\335\034"
+  55      ACE72F1B 
+  55      A8FF09B2 
+  55      DD1C
+  56 018a 64A729C8 		.ascii	"d\247)\310\256*z}\220G\372\271\361\315\1776^\220\306"
+  56      AE2A7A7D 
+  56      9047FAB9 
+  56      F1CD7F36 
+  56      5E90C6
+  57 019d 7F37AA17 		.ascii	"\1777\252\027\300\326\337\203r\270\001Q\364M\377\353"
+  57      C0D6DF83 
+  57      72B80151 
+  57      F44DFFEB 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 4
 
 
+  58 01ad C1EE017A 		.ascii	"\301\356\001z\002\314\254\346\007"
+  58      02CCACE6 
+  58      07
   59              		.text
-  60              		.section	.gnu.lto_.symbol_nodes.7649a251,"",%progbits
+  60              		.section	.gnu.lto_.symbol_nodes.bbabde58,"",%progbits
   61 0000 789C6366 		.ascii	"x\234cf``He\200\002\246\026\246z\006\206\011\347\030"
   61      60604865 
   61      8002A616 
@@ -206,13 +209,13 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
   65 004d C1000051 		.ascii	"\301\000\000Q\242\033~"
   65      A21B7E
   66              		.text
-  67              		.section	.gnu.lto_.refs.7649a251,"",%progbits
+  67              		.section	.gnu.lto_.refs.bbabde58,"",%progbits
   68 0000 789C6366 		.ascii	"x\234cf```d\200\002\000\000=\000\005"
   68      60606064 
   68      80020000 
   68      3D0005
   69              		.text
-  70              		.section	.gnu.lto_.decls.7649a251,"",%progbits
+  70              		.section	.gnu.lto_.decls.bbabde58,"",%progbits
   71 0000 789CAD55 		.ascii	"x\234\255UkLTG\024\276\263s\227\307u\001\033\2506\266"
   71      6B4C5447 
   71      14BEB373 
@@ -235,12 +238,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
   74      C5
   75 004c 8AA2B8E0 		.ascii	"\212\242\270\340\013A\004\025\024\001\331\236\231\273"
   75      0B410415 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 5
+
+
   75      1401D99E 
   75      99BB
   76 005a 4F5CAD4D 		.ascii	"O\\\255M{\303Yf\356\375\316w\276\231s\316\014f\030\246"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 5
-
-
   76      7BC35966 
   76      EEFDCE77 
   76      BE9973CE 
@@ -295,12 +298,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
   86      8904
   87 0121 0843EA80 		.ascii	"\010C\352\200\012\221\022\234\032vY\016\005\341w\020"
   87      0A91129C 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 6
+
+
   87      1A76590E 
   87      05E17710 
   88 0131 25A8E8AF 		.ascii	"%\250\350\257\341\360\373t\234\261\306Z\307\341\217"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 6
-
-
   88      E1F0FB74 
   88      9CB1C65A 
   88      C7E18F
@@ -355,12 +358,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
   98      17
   99 01f5 926A0591 		.ascii	"\222j\005\221u\205\2636\245g\346\212V\233\355C\352\205"
   99      7585B336 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 7
+
+
   99      A567E68A 
   99      569BED43 
   99      EA85
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 7
-
-
  100 0207 8E23575E 		.ascii	"\216#W^a,%\266\214&\366\225\212\362\010Y\356QQ;\323"
  100      612C25B6 
  100      8C26F695 
@@ -415,12 +418,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  110      E7B04D9A 
  110      9C6DEB
  111 02d2 7FAAA0C0 		.ascii	"\177\252\240\300\321d\332l\316\316\017\304\351,\375"
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 8
+
+
  111      D164DA6C 
  111      CECE0FC4 
  111      E92CFD
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 8
-
-
  112 02e1 D6309CF9 		.ascii	"\3260\234\371\304\027\377\310z\000\003%`\326\325\273"
  112      C417FFC8 
  112      7A000325 
@@ -475,12 +478,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  122      86D8E826 
  122      C8B88E
  123 03aa 42D10D14 		.ascii	"B\321\015\024J\305\022rK\327*\237\202)\224\367\232W"
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 9
+
+
  123      4AC51272 
  123      4BD72A9F 
  123      822994F7 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 9
-
-
  123      9A57
  124 03bc DE064241 		.ascii	"\336\006BAO\036kg\036\362#\010\306Q\337\316\343\271"
  124      4F1E6B67 
@@ -535,12 +538,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  134      0E753D61 
  134      52A2452A 
  134      F777907B 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 10
+
+
  135 0489 4F743F6C 		.ascii	"Ot?l\301cP\374\034\354\011X\027\330#\260\036\260g`\335"
  135      C16350FC 
  135      1CEC0958 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 10
-
-
  135      17D823B0 
  135      1EB06760 
  136 049e 604FC17A 		.ascii	"`O\301z\301\372\234\305\2602\335\332b\317\325\031\310"
@@ -595,12 +598,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  146      830691C2 
  146      A165905E 
  146      90
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 11
+
+
  147 0564 67B3AAAD 		.ascii	"g\263\252\255\362\340M\264s_s\3461\036\007\036\032B"
  147      F2E04DB4 
  147      735F73E6 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 11
-
-
  147      311E071E 
  147      1A42
  148 0576 C1E077B0 		.ascii	"\301\340w\260ow\001']\227ouT\243\227\210\003\2673\273"
@@ -655,12 +658,12 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  158 0631 249AC2A7 		.ascii	"$\232\302\247\250\022M\252dAe\367R\305\306\221\235\260"
  158      A8124DAA 
  158      644165F7 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 12
+
+
  158      52C5C691 
  158      9DB0
  159 0643 0BE262E3 		.ascii	"\013\342b\343\026\305\351c\214<\237\024\376\326\376"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 12
-
-
  159      16C5E963 
  159      8C3C9F14 
  159      FED6FE
@@ -708,19 +711,19 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  168      6AF5DF05 
  168      612801
  169              		.text
- 170              		.section	.gnu.lto_.symtab.7649a251,"",%progbits
+ 170              		.section	.gnu.lto_.symtab.bbabde58,"",%progbits
  171 0000 6D61696E 		.ascii	"main\000\000\000\000\000\000\000\000\000\000\000\000"
  171      00000000 
  171      00000000 
  171      00000000 
  172 0010 AB000000 		.ascii	"\253\000\000\000chThdSleep\000\000\002\000\000\000\000"
  172      63685468 
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 13
+
+
  172      64536C65 
  172      65700000 
  172      02000000 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 13
-
-
  173 0025 00000000 		.ascii	"\000\000\000\000\000\272\000\000\000chSysInit\000\000"
  173      00BA0000 
  173      00636853 
@@ -763,7 +766,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 1
  184              		.comm	__gnu_lto_v1,1,1
  185              		.comm	__gnu_lto_slim,1,1
  186              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc9jrBIb.s 			page 14
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccZhcEtx.s 			page 14
 
 
 DEFINED SYMBOLS

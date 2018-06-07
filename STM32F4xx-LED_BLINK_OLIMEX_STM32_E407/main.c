@@ -36,9 +36,9 @@ int main(void) {
    * Normal main() thread activity, the LED on the PCB blinks on and off at a defined rate
    */
   while (true) {
-    palSetPad(GPIOC, GPIOC_LED);
-    chThdSleepMilliseconds(1000);
-    palClearPad(GPIOC, GPIOC_LED);
-    chThdSleepMilliseconds(1000);
+    palSetPad(GPIOC, GPIOC_LED_SPI);
+    chThdSleepMilliseconds(100);
+    palClearPad(GPIOC, GPIOC_LED_SPI);
+    chThdSleepMilliseconds(100);
   }
 }

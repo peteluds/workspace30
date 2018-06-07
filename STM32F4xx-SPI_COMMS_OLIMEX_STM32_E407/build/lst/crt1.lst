@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 1
 
 
    1              		.syntax unified
@@ -17,14 +17,14 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   14              		.file	"crt1.c"
   15              		.text
   16              	.Ltext0:
-  17              		.section	.gnu.lto_.profile.7682f5ed,"",%progbits
+  17              		.section	.gnu.lto_.profile.bbabed87,"",%progbits
   18 0000 789C6366 		.ascii	"x\234cf```a\200\000F\0066f\000\000\203\000\022"
   18      60606061 
   18      80004606 
   18      36660000 
   18      830012
   19              		.text
-  20              		.section	.gnu.lto_.jmpfuncs.7682f5ed,"",%progbits
+  20              		.section	.gnu.lto_.jmpfuncs.bbabed87,"",%progbits
   21 0000 789C6366 		.ascii	"x\234cf\300\016\370\2404\013\0203200100\003Y\000\002"
   21      C00EF8A0 
   21      340B1033 
@@ -32,7 +32,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   21      30300359 
   22 0016 48001C   		.ascii	"H\000\034"
   23              		.text
-  24              		.section	.gnu.lto_.inline.7682f5ed,"",%progbits
+  24              		.section	.gnu.lto_.inline.bbabed87,"",%progbits
   25 0000 789C6366 		.ascii	"x\234cf\300\016<\2414\013\003\0033\023#\003\023\220"
   25      C00E3CA1 
   25      340B0303 
@@ -46,7 +46,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   27 0027 000083B3 		.ascii	"\000\000\203\263\002\317"
   27      02CF
   28              		.text
-  29              		.section	.gnu.lto_.pureconst.7682f5ed,"",%progbits
+  29              		.section	.gnu.lto_.pureconst.bbabed87,"",%progbits
   30 0000 789C6366 		.ascii	"x\234cf``\340d\200\000\026\006\011F\011&\011f\023\000"
   30      6060E064 
   30      80001606 
@@ -54,11 +54,11 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   30      09661300 
   31 0014 02C10093 		.ascii	"\002\301\000\223"
   32              		.text
-  33              		.section	.gnu.lto___core_init.7682f5ed,"",%progbits
+  33              		.section	.gnu.lto___core_init.bbabed87,"",%progbits
   34 0000 789C6366 		.ascii	"x\234cf\300\004R@\\\002\304\356@\314\310\314\300\310"
   34      C0045240 
   34      5C02C4EE 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 2
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 2
 
 
   34      40CCC8CC 
@@ -110,7 +110,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   44 00c4 4B660000 		.ascii	"Kf\000\000\320JA\231"
   44      D04A4199 
   45              		.text
-  46              		.section	.gnu.lto___early_init.7682f5ed,"",%progbits
+  46              		.section	.gnu.lto___early_init.bbabed87,"",%progbits
   47 0000 789C6366 		.ascii	"x\234cf\300\004R@\\\014\304\356@\314\310\314\300\310"
   47      C0045240 
   47      5C0CC4EE 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   47      C0C8
   48 0012 34E11C03 		.ascii	"4\341\034\003C#\007\023##\210\301\300\310P\317\304X"
   48      43230713 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 3
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 3
 
 
   48      232388C1 
@@ -165,7 +165,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   56      2A31D44B 
   57 00c8 ED416B   		.ascii	"\355Ak"
   58              		.text
-  59              		.section	.gnu.lto___late_init.7682f5ed,"",%progbits
+  59              		.section	.gnu.lto___late_init.bbabed87,"",%progbits
   60 0000 789C6366 		.ascii	"x\234cf\300\004R@\\\004\304\356@\314\310\314\300\310"
   60      C0045240 
   60      5C04C4EE 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   61      C458
   62 0024 CFF892E9 		.ascii	"\317\370\222\351#\023\343\204\003\253gp\253/mhh\370"
   62      2313E384 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 4
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 4
 
 
   62      03AB6770 
@@ -225,7 +225,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   70      00
   71 00c6 C41F4011 		.ascii	"\304\037@\021"
   72              		.text
-  73              		.section	.gnu.lto___default_exit.7682f5ed,"",%progbits
+  73              		.section	.gnu.lto___default_exit.bbabed87,"",%progbits
   74 0000 789C6366 		.ascii	"x\234cf\300\004&@\\\014\304\356@\314\310\312\300\310"
   74      C0042640 
   74      5C0CC4EE 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   75      11
   76 0023 60810838 		.ascii	"`\201\010822\32431\2630\002\011\210\376\227L\037\231"
   76      3232D433 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 5
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 5
 
 
   76      31B33002 
@@ -286,7 +286,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   84      A344
   85 00d5 4B       		.ascii	"K"
   86              		.text
-  87              		.section	.gnu.lto_.symbol_nodes.7682f5ed,"",%progbits
+  87              		.section	.gnu.lto_.symbol_nodes.bbabed87,"",%progbits
   88 0000 789C6366 		.ascii	"x\234cf``pc\200\002\246\017\014\365\014\014\023\316"
   88      60607063 
   88      8002A60F 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   89      A19E1145 
   89      E0
   90 0023 13433D13 		.ascii	"\023C=\023\212\300g\206zf\204\000\013\003\003\000\356"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 6
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 6
 
 
   90      8AC06786 
@@ -307,13 +307,13 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
   90      EE
   91 0034 7A149E   		.ascii	"z\024\236"
   92              		.text
-  93              		.section	.gnu.lto_.refs.7682f5ed,"",%progbits
+  93              		.section	.gnu.lto_.refs.bbabed87,"",%progbits
   94 0000 789C6366 		.ascii	"x\234cf```d\200\002\000\000=\000\005"
   94      60606064 
   94      80020000 
   94      3D0005
   95              		.text
-  96              		.section	.gnu.lto_.decls.7682f5ed,"",%progbits
+  96              		.section	.gnu.lto_.decls.bbabed87,"",%progbits
   97 0000 789C6366 		.ascii	"x\234cf``\270\002\304\377\201\340%#\003\303\004 \233"
   97      6060B802 
   97      C4FF81E0 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
  105      5BCD1D9F 
  105      F89945C1 
  106 00a9 8A5ACFBD 		.ascii	"\212Z\317\275\376\304\314\302\304\300\270\206\221\031"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 7
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 7
 
 
  106      FEC4CCC2 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
  117      DD0AB776 
  117      07
  118 017a C8DAAD30 		.ascii	"\310\332\2550kw2*0p\307\307'\347\027\245\306g\346e\226"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 8
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 8
 
 
  118      6B77322A 
@@ -459,7 +459,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
  125      00A9
  126 0208 4BDC00   		.ascii	"K\334\000"
  127              		.text
- 128              		.section	.gnu.lto_.symtab.7682f5ed,"",%progbits
+ 128              		.section	.gnu.lto_.symtab.bbabed87,"",%progbits
  129 0000 5F5F636F 		.ascii	"__core_init\000\000\001\000\000\000\000\000\000\000"
  129      72655F69 
  129      6E697400 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
  132      696E6974 
  132      00000100 
  132      00000000 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 9
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 9
 
 
  132      000000
@@ -516,7 +516,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 1
  142              		.comm	__gnu_lto_v1,1,1
  143              		.comm	__gnu_lto_slim,1,1
  144              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cc8PMFaS.s 			page 10
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccrXzisx.s 			page 10
 
 
 DEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 1
 
 
    1              		.syntax unified
@@ -17,14 +17,14 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   14              		.file	"chregistry.c"
   15              		.text
   16              	.Ltext0:
-  17              		.section	.gnu.lto_.profile.768e59c3,"",%progbits
+  17              		.section	.gnu.lto_.profile.bbabc021,"",%progbits
   18 0000 789C6366 		.ascii	"x\234cf```e\200\000F\206~FM\000\002b\000\303"
   18      60606065 
   18      80004686 
   18      7E464D00 
   18      026200C3 
   19              		.text
-  20              		.section	.gnu.lto_.jmpfuncs.768e59c3,"",%progbits
+  20              		.section	.gnu.lto_.jmpfuncs.bbabc021,"",%progbits
   21 0000 789C6366 		.ascii	"x\234cf\300\016B\24143\02032}db\234\326\177e\007s\355"
   21      C00E42A1 
   21      34331033 
@@ -43,7 +43,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   24      0100B48A 
   24      1529
   25              		.text
-  26              		.section	.gnu.lto_.inline.768e59c3,"",%progbits
+  26              		.section	.gnu.lto_.inline.bbabc021,"",%progbits
   27 0000 789C6366 		.ascii	"x\234cf\300\016*\24043\003\203\200\022#\003\223\320"
   27      C00E2AA0 
   27      34330383 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   29      02D5704D 
   29      F0832B41 
   29      48820916 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 2
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 2
 
 
   29      061133A0 
@@ -70,14 +70,14 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   31      00626408 
   31      A2
   32              		.text
-  33              		.section	.gnu.lto_.pureconst.768e59c3,"",%progbits
+  33              		.section	.gnu.lto_.pureconst.bbabc021,"",%progbits
   34 0000 789C6366 		.ascii	"x\234cf```g\200\000f\006+f+\026+\000\002\350\000\303"
   34      60606067 
   34      80006606 
   34      2B662B16 
   34      2B0002E8 
   35              		.text
-  36              		.section	.gnu.lto_chSysUnlock.768e59c3,"",%progbits
+  36              		.section	.gnu.lto_chSysUnlock.bbabc021,"",%progbits
   37 0000 789C8D54 		.ascii	"x\234\215TmLSg\024>\317{?Z[\031\310\214[4\031$f\361"
   37      6D4C5367 
   37      143ECF7B 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   44      4D0F5B3A 
   44      8C
   45 0093 34CA0064 		.ascii	"4\312\000dB\240\215J\323\015l\304\003\365T\241.\321"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 3
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 3
 
 
   45      42A08D4A 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   57 015f 26148D08 		.ascii	"&\024\215\010\261\270;c\275/\225\270\201fq\333m\372"
   57      B1B83B63 
   57      BD2F95B8 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 4
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 4
 
 
   57      816671DB 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   68      CD137CB2 
   69 0242 D1AAD7B4 		.ascii	"\321\252\327\264\317 \363\366\246g\227\335R&\257P\314"
   69      CF20F3F6 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 5
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 5
 
 
   69      A66797DD 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   81 0310 E215DED2 		.ascii	"\342\025\336\322\300\352@IE\345\232@p\205O\346\301\360"
   81      C0EA4049 
   81      45E59A40 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 6
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 6
 
 
   81      70854FE6 
@@ -333,7 +333,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   87      3F5D9B03 
   88 0390 6A       		.ascii	"j"
   89              		.text
-  90              		.section	.gnu.lto_chRegFirstThread.768e59c3,"",%progbits
+  90              		.section	.gnu.lto_chRegFirstThread.bbabc021,"",%progbits
   91 0000 789C8553 		.ascii	"x\234\205S[HTQ\024=\353\334;\223\2163$}\364\341\217"
   91      5B485451 
   91      143DEBDC 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
   95      7D67E861 
   95      AF0B33F7 
   95      9CB3D75A 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 7
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 7
 
 
   95      7BED
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  107 012e 13DA48A2 		.ascii	"\023\332H\242\263\021\223*\216\374\311\031\032\220A"
  107      B311932A 
  107      8EFCC919 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 8
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 8
 
 
  107      1A9041
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  119 0209 BDBADB9E 		.ascii	"\275\272\333\236\304\315H6\267u\301\262\035\330\211"
  119      C4CD4836 
  119      B775C1B2 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 9
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 9
 
 
  119      1DD889
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  131 02dd E79F92A9 		.ascii	"\347\237\222\251\371\374\232\036\320\374\272[s\347\351"
  131      F9FC9A1E 
  131      D0FCBA5B 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 10
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 10
 
 
  131      73E7E9
@@ -574,7 +574,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  137      1B
  138 035b 4E31CEB9 		.ascii	"N1\316\271"
  139              		.text
- 140              		.section	.gnu.lto_chRegNextThread.768e59c3,"",%progbits
+ 140              		.section	.gnu.lto_chRegNextThread.bbabc021,"",%progbits
  141 0000 789C8D54 		.ascii	"x\234\215T]L\034U\024\276\347\316\317.\273\374\265\032"
  141      5D4C1C55 
  141      14BEE7CE 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  145      A5221AB0 
  145      6831296E 
  145      6B99505C 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 11
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 11
 
 
  145      CFB9B3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  156      C1C531BB 
  157 012f 1AD4342D 		.ascii	"\032\3244-\021>\207\224E\316H!\012k\006\025\250q\346"
  157      113E8794 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 12
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 12
 
 
  157      45CE4821 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  169      8513069D 
  169      2063E0CA 
  169      BE
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 13
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 13
 
 
  170 020c E37FCB49 		.ascii	"\343\177\313I\013Q\264J\271C\263}]1\002\335Eh\370\012"
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  181      F54C83C7 
  181      412F8A62 
  181      F02DBAA6 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 14
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 14
 
 
  181      6B1A0F
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  193      1624B8B1 
  193      F46204F5 
  193      2EFB8699 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 15
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 15
 
 
  194 03b8 4F8531CE 		.ascii	"O\2051\316`\0043q\300\015\3764\233\300\357\365\220\335"
@@ -895,10 +895,10 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  205      179B3782 
  205      6B
  206              		.text
- 207              		.section	.gnu.lto_.symbol_nodes.768e59c3,"",%progbits
+ 207              		.section	.gnu.lto_.symbol_nodes.bbabc021,"",%progbits
  208 0000 789C4D8A 		.ascii	"x\234M\212K\012\302@\020\005\337\233\2361\243F\360\006"
  208      4B0AC240 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 16
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 16
 
 
  208      1005DF9B 
@@ -945,7 +945,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  217 009e 28BEC407 		.ascii	"(\276\304\007ifL\016"
  217      69664C0E 
  218              		.text
- 219              		.section	.gnu.lto_.refs.768e59c3,"",%progbits
+ 219              		.section	.gnu.lto_.refs.bbabc021,"",%progbits
  220 0000 789C25C5 		.ascii	"x\234%\305\301\015\000 \014\003\261K\322\012\225\031"
  220      C10D0020 
  220      0C03B14B 
@@ -958,10 +958,10 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  222 0022 BDB90835 		.ascii	"\275\271\0105\000m"
  222      006D
  223              		.text
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 17
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 17
 
 
- 224              		.section	.gnu.lto_.decls.768e59c3,"",%progbits
+ 224              		.section	.gnu.lto_.decls.bbabc021,"",%progbits
  225 0000 789CB57C 		.ascii	"x\234\265|yP\024Y\232x\275zU\024U\024E\267v3\035F\317"
  225      79501459 
  225      9A78BD7A 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  236      4C9E13A4 
  236      C1351D1C 
  236      B5D02E
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 18
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 18
 
 
  237 00e5 433B07F7 		.ascii	"C;\007\367.BS\302\371_\3408\010\367\277\2016\000-\031"
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  248      E976D2A3 
  248      BD4A0D87 
  248      1DFD22
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 19
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 19
 
 
  249 01bd ECCAB347 		.ascii	"\354\312\263G\367\252'\344H\247\371\013\001\347\"\247"
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  260      66DCC54E 
  260      CD3A3B35 
  260      EB3935EB 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 20
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 20
 
 
  261 029e 9A75CF6E 		.ascii	"\232u\317n\367(\276\227\302\011\376\212\002\375\301"
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  273 0372 172D585C 		.ascii	"\027-X\\f3!\272\004\375\353\007\032\212\213\332\340"
  273      663321BA 
  273      04FDEB07 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 21
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 21
 
 
  273      1A8A8BDA 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  284      D1C4351D 
  285 044a 9E6640D2 		.ascii	"\236f@\322\035\313m\035~\314\200\303gG\302\265x\236"
  285      1DCB6D1D 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 22
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 22
 
 
  285      7ECC80C3 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  296      DB
  297 0521 11691B31 		.ascii	"\021i\0331\305IlZ\357\355q2!\202#\343\323\231\314F\310"
  297      C5496C5A 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 23
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 23
 
 
  297      EFED7132 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  308      4DAF861E 
  309 0602 7B53869E 		.ascii	"{S\206\236\201L$fQ\230\334\003\036a\311o\005.\232\344"
  309      814C2466 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 24
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 24
 
 
  309      5198DC03 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  320      DC0E69AA 
  320      49AB51CD 
  321 06e2 38FA2DAD 		.ascii	"8\372-\255\277\211@u\257@5Ad\376\201\322\276\363\030"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 25
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 25
 
 
  321      BF894075 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  332      40CF930B 
  332      C32909EE 
  332      0512
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 26
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 26
 
 
  333 07b7 DC81F2E1 		.ascii	"\334\201\362\341\256\221\030d\033\250\035e\003\265\""
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  345 0881 E0150624 		.ascii	"\340\025\006$\355\037:\251\305\221l\342S~\347Q\262\022"
  345      ED1F3AA9 
  345      C5916CE2 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 27
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 27
 
 
  345      537EE751 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  356      8F8481A4 
  356      6DDD2B61 
  356      6B32C41F 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 28
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 28
 
 
  357 0967 8D57E223 		.ascii	"\215W\342#\214_\307Tu\2273.e\300\303\003#\020!U\014"
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  368      73E35F79 
  368      ABF5EA1E 
  368      8CD67B48 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 29
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 29
 
 
  368      DA
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  380 0b0c 4D08A501 		.ascii	"M\010\245\001z\331\232\304M\326\275\305\227\351\314"
  380      7AD99AC4 
  380      4DD6BDC5 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 30
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 30
 
 
  380      97E9CC
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  391      4D982969 
  392 0be8 4A393312 		.ascii	"J93\022!]\000\244\347\241/\304\211\372\001\211\324\377"
  392      215D00A4 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 31
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 31
 
 
  392      E7A12FC4 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  403      CEBA7081 
  403      C94D
  404 0cc0 346F96EC 		.ascii	"4o\226\354\242\242l\022g\353y\315\222=\317\206j\262"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 32
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 32
 
 
  404      A2A26C12 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  415      1033045B 
  415      96BD28F4 
  415      8779E9A8 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 33
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 33
 
 
  415      11
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  427 0e70 DAA072BC 		.ascii	"\332\240r\274\221,\344\\\032kR*\344\\\225\373\023\335"
  427      912CE45C 
  427      1A6B522A 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 34
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 34
 
 
  427      E45C95FB 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  438      1C89DAC8 
  438      999450
  439 0f4e A81351A8 		.ascii	"\250\023Q\250\343)\324S\012\017\306K\227\335p'\2430"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 35
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 35
 
 
  439      E329D453 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  451      16C2A095 
  451      32081D7E 
  451      7046C3D6 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 36
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 36
 
 
  451      A8
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  462      360E
  463 10f8 17D1BDE6 		.ascii	"\027\321\275\346H\327\261~[K\312\204Io\267\264\314\002"
  463      48D7B17E 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 37
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 37
 
 
  463      5B4BCA84 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  474      09D8A267 
  474      A7B0
  475 11d0 F08A88BC 		.ascii	"\360\212\210\274\264\273(\305\005i=VCG\323 \276\360"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 38
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 38
 
 
  475      B4BB28C5 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  486      EBD6B432 
  486      C1122BC0 
  486      2554B18A 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 39
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 39
 
 
  486      7A62A3
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  497      433E3E7A 
  498 1385 0A5B1830 		.ascii	"\012[\0300\2308fV\343\026\006\224\267\265\245\250q\037"
  498      98386656 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 40
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 40
 
 
  498      E3160694 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  509      E6B9A52F 
  509      567FEFF8 
  509      88827BEF 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 41
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 41
 
 
  510 146d B850410B 		.ascii	"\270PA\013n\363tN\215Fx\223\330H%\312Wl@\005\012\202"
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  521      6E6AAF38 
  521      B0D77E49 
  521      6461
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 42
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 42
 
 
  522 1545 6C7E97AB 		.ascii	"l~\227\253\024\204p\202#\256\343:\350\302O\001\223\030"
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  533 161c D9B43DCE 		.ascii	"\331\264=\316\370\012\003&-{\007\025\270\227\001\265"
  533      F80A0326 
  533      2D7B0715 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 43
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 43
 
 
  533      B89701B5 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  544      6ED6
  545 16f6 82935084 		.ascii	"\202\223P\204\322\330\013\247\327@\201>ZI\006h\025\272"
  545      D2D80BA7 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 44
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 44
 
 
  545      D740813E 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  557      B38F03B5 
  557      4BC21460 
  557      4432B46D 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 45
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 45
 
 
  557      E27F
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  568      ED
  569 18ac BBA8B16B 		.ascii	"\273\250\261k\364%\332\005\205\006=\026\362\324F\361"
  569      F425DA05 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 46
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 46
 
 
  569      85063D16 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  581 197e C06B7D4B 		.ascii	"\300k}K'\016\361o\206\211~\342\327\275\0142t\007\314"
  581      270EF16F 
  581      86897EE2 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 47
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 47
 
 
  581      D7BD0C32 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  592      EA8F1D70 
  592      636D
  593 1a5d 02EC9512 		.ascii	"\002\354\225\022@\360\322~\033\342>)D\221E\227\005I"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 48
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 48
 
 
  593      40F0D27E 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  604      D08E422B 
  604      8556A6DC 
  605 1b3e 201E08B8 		.ascii	" \036\010\270\263\201@\325\3313\251\210\226\313pZ^\370"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 49
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 49
 
 
  605      B38140D5 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  616      45658D5C 
  616      39A27C0B 
  616      C6F1CA0F 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 50
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 50
 
 
  616      64E88C
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  627      4680
  628 1ce7 739A2D50 		.ascii	"s\232-P\253r#<\030]VY\257\246[\210\344\003y\266\207"
  628      AB72233C 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 51
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 51
 
 
  628      185D5659 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  639      E367B2CD 
  639      9F
  640 1dca FDE3D6CF 		.ascii	"\375\343\326\317v\372n\363\375\322\030\342\343\033\270"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 52
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 52
 
 
  640      76FA6EF3 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  652      FEE517BF 
  652      FDECB7DF 
  652      6CF60EF4 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 53
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 53
 
 
  653 1ea2 0FF2F5D3 		.ascii	"\017\362\365\323\033\2027\377\313g\237\201\011y\001"
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  665      0CDCF6FF 
  665      83D67111 
  665      0B
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 54
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 54
 
 
  666 1f7f 8FEA0DFA 		.ascii	"\217\352\015\372\000o \254\334e4\032\202\264\020\301"
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  679      B3C1489F 
  679      326ABC43 
  679      FC43FCBC 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 55
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 55
 
 
  679      8CBE
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  691      D694B990 
  691      CE0D
  692 2127 FED5FBB3 		.ascii	"\376\325\373\263R\305\316\265\344\336n\256o\271\302"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 56
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 56
 
 
  692      52C5CEB5 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  703      A63E7BC5 
  703      0869
  704 2200 128AC836 		.ascii	"\022\212\3106\003\344\227@\250$N\201\333\267\007\353"
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 57
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 57
 
 
  704      03E49740 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  716 22cb 7FFAE597 		.ascii	"\177\372\345\227\377\374\207/\376\325\325\313o\227\327"
  716      FFFC872F 
  716      FED5D5CB 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 58
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 58
 
 
  716      6F97D7
@@ -3436,7 +3436,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  719      8E30FB1F 
  719      C4DEC270 
  720              		.text
- 721              		.section	.gnu.lto_.symtab.768e59c3,"",%progbits
+ 721              		.section	.gnu.lto_.symtab.bbabc021,"",%progbits
  722 0000 63685265 		.ascii	"chRegFirstThread\000\000\000\000\000\000\000\000\000"
  722      67466972 
  722      73745468 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  730      0000B801 
  730      00005F64 
  730      62675F63 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 59
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 59
 
 
  730      6865636B 
@@ -3538,10 +3538,10 @@ ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 1
  745              		.comm	__gnu_lto_v1,1,1
  746              		.comm	__gnu_lto_slim,1,1
  747              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 60
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 60
 
 
-ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\ccCCDe32.s 			page 61
+ARM GAS  C:\Users\PETERL~1\AppData\Local\Temp\cciqeL0j.s 			page 61
 
 
 DEFINED SYMBOLS
